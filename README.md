@@ -5,7 +5,7 @@ Text-based Tweet Generator using real text input.
 
 Snakes and Ladders Game Simulator using board transitions.
 
-📁 Project Structure
+Project Structure
 markov_chain.h / markov_chain.c: Core Markov Chain data structures and logic.
 
 linked_list.h / linked_list.c: Linked list implementation used by the Markov Chain.
@@ -18,10 +18,10 @@ makefile: Compilation instructions for both applications.
 
 README.md: Project documentation.
 
-🧠 How It Works
+How It Works
 A Markov Chain is a stochastic model that predicts the next state based only on the current state. In this project, a generic Markov chain is implemented, allowing custom types for states and transitions, defined through function pointers (compare, print, copy, etc.).
 
-🐍 Snakes and Ladders Simulator
+Snakes and Ladders Simulator
 Description
 Simulates random paths in a Snakes and Ladders game using the Markov Chain to represent board positions and possible moves (via dice rolls and transitions like ladders/snakes).
 
@@ -31,7 +31,7 @@ Example
 bash: ./snakes_and_ladders 17 3
 This will simulate 3 random walks starting from cell 1 and ending at 100.
 
-🐦 Tweet Generator
+Tweet Generator
 Description
 Generates tweet-like sentences based on an input text file using Markov Chains.
 
@@ -50,7 +50,7 @@ bash:
 ./tweets_generator 7 5 tweets.txt
 ./tweets_generator 10 3 tweets.txt 100
 
-🔧 Compilation
+Compilation
 Use the provided makefile to compile the project.
 
 bash:
@@ -61,7 +61,8 @@ To clean up:
 
 bash:
 make clean
-🧪 Features
+
+Features
 Generic, type-safe Markov chain engine.
 
 Easily extendable to other applications.
